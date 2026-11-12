@@ -3,6 +3,8 @@ import { Composition, Still } from "remotion";
 import "./fonts";
 import { Thumbnail } from "./Thumbnail";
 import { Portrait } from "./Portrait";
+import { Match } from "./match/Match";
+import { DURATION } from "./match/choreo";
 import { defaultProps, durationFor, FPS, Video } from "./Video";
 
 // One composition per output format. Same component, responsive layout.
@@ -31,6 +33,7 @@ export const RemotionRoot: React.FC = () => (
     {/* Stills: thumbnails, posters, social images. npx remotion still src/index.ts Thumb-16x9 out/thumb.png */}
     <Still id="Thumb-16x9" component={Thumbnail} width={1280} height={720} defaultProps={defaultProps} />
     <Still id="Poster-9x16" component={Thumbnail} width={1080} height={1920} defaultProps={defaultProps} />
+    <Composition id="Match-16x9" component={Match} durationInFrames={DURATION} fps={30} width={1920} height={1080} />
     <Still id="Portrait-1x1" component={Portrait} width={1080} height={1080} />
     <Still id="Post-1x1" component={Thumbnail} width={1080} height={1080} defaultProps={defaultProps} />
   </>
