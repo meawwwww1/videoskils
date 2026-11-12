@@ -1,0 +1,26 @@
+{
+  "name": "motion-studio-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render",
+    "still": "remotion still",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/heebo": "5.2.8",
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/noto-sans-arabic": "5.2.8",
+    "@fontsource/noto-sans-jp": "5.2.8",
+    "@remotion/cli": "4.0.540",
+    "@remotion/transitions": "4.0.540",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.540"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
