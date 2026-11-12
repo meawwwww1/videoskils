@@ -1,0 +1,18 @@
+{
+  "name": "videoskils",
+  "owner": { "name": "meawwwww1" },
+  "metadata": {
+    "description": "Video, animation and image creation plugins for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "motion-studio",
+      "source": "./plugins/motion-studio",
+      "description": "Create videos, animations and images from a prompt: Remotion for motion graphics and social video, Manim for math/technical explainers, FFmpeg for editing. Asks 8 briefing questions first, renders, then auto-QAs and fixes.",
+      "version": "1.0.0",
+      "category": "media",
+      "keywords": ["video", "animation", "remotion", "manim", "ffmpeg", "motion-graphics", "reels", "image"]
+    }
+  ]
+}

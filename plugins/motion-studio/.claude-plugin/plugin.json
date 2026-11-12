@@ -1,0 +1,7 @@
+{
+  "name": "motion-studio",
+  "version": "1.0.0",
+  "description": "Prompt-to-video studio: briefing questions, engine routing (Remotion / Manim / FFmpeg), multilingual + RTL text, rendering, and automatic visual QA with a fix loop. Also makes stills, posters and thumbnails.",
+  "author": { "name": "meawwwww1" },
+  "keywords": ["video", "animation", "remotion", "manim", "ffmpeg", "motion-graphics", "image"]
+}
